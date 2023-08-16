@@ -1,4 +1,5 @@
 Town Tourist Website Design
+
 Design Decisions
 - Navigation: I chose a simple and clear navigation bar for easy access to different sections.
 - Layout: I used Bootstrap's grid system to create a responsive layout that adapts to various screen sizes.
