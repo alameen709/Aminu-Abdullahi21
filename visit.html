@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSC315</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css.map">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css.map">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.rtl.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.rtl.css.map">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.rtl.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.rtl.min.css.map">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css.map">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css.map">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-utilities.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-utilities.css.map">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-utilities.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-utilities.min.css.map">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css.map">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css.map">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.rtl.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.rtl.css.map">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.rtl.min.css.map">
+  <link rel="stylesheet" href="bootstrap/css/swiper-bundle.min">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <label>
+    <input type="checkbox">
+    <div class="toggle">
+      <span class="top_line common"></span>
+      <span class="middle_line common"></span>
+      <span class="bottom_line common"></span>
+    </div>
+    <div class="slide">
+      <h1> </h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="visit.html">Visit</a></li>
+      </ul>
+    </div>
+  </label>
+  <br><br>
+
+  <div class="row">
+    <div class="col-md-7"><br>
+      <p style="margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify; color: rgb(7, 8, 7); font-family: "
+        Open Sans, Arial, sans-serif; font-size: 14px;>
+        Gwandu is famous for so many things amongst which are, scholar
+        articles and <span id="dots">...</span><span id="more"> farming, which is why people called it Gwandu garin makaranta da manoma which translate "Land of
+          readers and farmers". "Gwandu ta Abdullahi", The main reason behind this slogan is because of its legend Islamic
+          schorlar Mallam Abdullahin Gwandu. A person who wrote so many books about Islam and some aspect of life. Among
+          his books are, Tazyin al-waraqat, Diya' al-Sultan Diya' al-Hukkam. Some scholars called him Balaraben kasar hausa (an Arab from Hausa land) due to
+          his dedication and books he wrote in arabic. Some even come to Gwandu just to visits his tomb. This is why in
+          the whole world there is hardly, a single society of scholars that do not know or hear about Gwandu. Gwandu is
+          unique for its tasty and cherished (Kilishi). Anyone who visits Gwandu without tasting their Kilishi has lost
+          out completely. Gwandu is home to farmers. They grow; sugarcane, onion, millet, red and green pepper and also
+          rear cattle and sheep. Gwandu has favorable geographical location and the presence of fertile lands. The area
+          boasted rich pasture lands, which attracted Fulani pastoralists to settle there.</span></p></h3>
+        <button onclick="myFunction()"
+    id="myBtn">Read more</button>    </div>
+    <div class="col-md-5">
+      <div class="maindiv">
+
+      </div>
+    </div>
+  </div>
+
+  <marquee class="marq" bgcolor="#e9e9e9" direction="left" behavior=scroll loop"">
+
+  </marquee>
+  <style>
+  .read-more-state {
+    display: none;
+  }
+  .read-more-target {
+    max-height: 0;
+    opacity: 0;
+    font-size: 0;
+    transition: 0.4s ease;
+  }
+  .read-more-state:checked~.read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+  }
+  .read-more-state~.read-more-trigger:before {
+    content: 'Read more';
+  }
+  .read-more-state:checked~.read-more-trigger:before {
+    content: 'Read less';
+  }
+  .read-more-trigger {
+    margin-top: 20px;
+    padding: 0 25px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 2;
+    border-radius: 10px;
+    background-color: #cecece;
+  }
+  #more{
+    display: none;
+  }
+  #myBtn{
+    background-color: rgb(25, 27, 26);
+    border-radius: 9px;
+    color: #f1f1f1;
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  .myBtn:hover {
+    background-color: rgb(51, 59, 55);}
+</style>
+</div>
+<script>
+    function myFunction() {
+      var dots =
+      document.getElementById("dots");
+      var moreText = 
+      document.getElementById("more");
+      var btnText =
+      document.getElementById("myBtn");
+      if (dots.style.display ===
+      "none") {
+          dots.style.display = 
+      "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = 
+      "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = 
+        "inline"
+      }
+    }
+    </script>
+  </div>
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.js.map"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js.map"></script>
+  <script src="bootstrap/js/bootstrap.esm.js"></script>
+  <script src="bootstrap/js/bootstrap.esm.js.map"></script>
+  <script src="bootstrap/js/bootstrap.esm.min.js"></script>
+  <script src="bootstrap/js/bootstrap.esm.min.js.map"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+  <script src="bootstrap/js/bootstrap.js.map"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js.map"></script>
+  <script src="bootstrap/js/swiper-bundle.min"></script>
+</body>
+
+</html>
