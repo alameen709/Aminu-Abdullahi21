@@ -27,7 +27,7 @@ p {
   border-radius: 2px;
   background-size: 100% 100;
   box-shadow: 1px 2px 6px 4px white;
-  animation: slider 5s infinite linear;
+  animation: slider 10s infinite linear;
 }
 @keyframes slider{
   0%{ background-image: url('k1.jpeg'); }

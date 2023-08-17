@@ -9,7 +9,30 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body bgcolor=" black">
+<body bgcolor=>
+<style>
+.maindiv{
+  width: 40%;
+  height: 80%;
+  position: absolute;
+  left: 78%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('a.jpeg');
+  background-size: cover;
+  border-radius: 2px;
+  background-size: 100% 100;
+  box-shadow: 1px 2px 6px 4px white;
+  animation: slider 5s infinite linear;
+}
+@keyframes slider{
+  0%{ background-image: url('k1.jpeg'); }
+
+  35%{ background-image: url('k2.jpeg'); }
+
+  75%{ background-image: url('k3.jpeg'); }
+}
+</style>
   <label>
     <input type="checkbox">
     <div class="toggle">
@@ -23,6 +46,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="history.html">History</a></li>
         <li><a href="visit.html">Visit</a></li>
+		<li><a href="readme.html">ReadME.md</a></li>
        </ul>
     </div>
 </label>
@@ -35,21 +59,21 @@
       <p style="color: whitesmoke;">Nickname: Ta Abdullahi</p>
     </div>
   </center><br>
-  <center><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=12°30'8 N 4°38'33'E " width="100%" height="450"
+  <center><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=12°30'8"N,43°8'33"E"" width="100%" height="450"
   frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center>
-  <script src="bootstrap/js/bootstrap.bundle.js"></script>
-  <script src="bootstrap/js/bootstrap.bundle.js.map"></script>
-  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="bootstrap/js/bootstrap.bundle.min.js.map"></script>
-  <script src="bootstrap/js/bootstrap.esm.js"></script>
-  <script src="bootstrap/js/bootstrap.esm.js.map"></script>
-  <script src="bootstrap/js/bootstrap.esm.min.js"></script>
-  <script src="bootstrap/js/bootstrap.esm.min.js.map"></script>
-  <script src="bootstrap/js/bootstrap.js"></script>
-  <script src="bootstrap/js/bootstrap.js.map"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js.map"></script>
-  <script src="bootstrap/js/swiper-bundle.min"></script>
+  <script src="bootstrap.bundle.js"></script>
+  <script src="bootstrap.bundle.js.map"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="bootstrap.bundle.min.js.map"></script>
+  <script src="bootstrap.esm.js"></script>
+  <script src="bootstrap.esm.js.map"></script>
+  <script src="bootstrap.esm.min.js"></script>
+  <script src="bootstrap.esm.min.js.map"></script>
+  <script src="bootstrap.js"></script>
+  <script src="bootstrap.js.map"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="bootstrap.min.js.map"></script>
+  <script src="swiper-bundle.min"></script>
 </body>
 
 </html>
