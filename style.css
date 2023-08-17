@@ -22,7 +22,7 @@ p {
   left: 78%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-image: url('./img/a.jpeg');
+  background-image: url('a.jpeg');
   background-size: cover;
   border-radius: 2px;
   background-size: 100% 100;
@@ -30,11 +30,11 @@ p {
   animation: slider 5s infinite linear;
 }
 @keyframes slider{
-  0%{ background-image: url('./img/k1.jpeg'); }
+  0%{ background-image: url('k1.jpeg'); }
 
-  35%{ background-image: url('./img/k2.jpeg'); }
+  35%{ background-image: url('k2.jpeg'); }
 
-  75%{ background-image: url('./img/k3.jpeg'); }
+  75%{ background-image: url('k3.jpeg'); }
 }
   .slide{
     height: 100%;
